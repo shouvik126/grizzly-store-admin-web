@@ -1,0 +1,166 @@
+@CHARSET "ISO-8859-1";
+
+.logo1 {
+	display: block;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border:none;
+}
+
+input.logo1[type="submit"] {
+	cursor: pointer;
+}
+
+.body1 {
+	min-height: 700px;
+}
+
+
+.pill-item {
+	width: 33%;
+	background-color: #f2f2f2;
+}
+
+.pill-link {
+	text-align: center;
+	min-height:85px;
+}
+
+.pill-link h2{
+	margin-top: 18px;
+	color: black;
+}
+
+.pill-link:hover{
+	color: black;
+}
+
+.card-content{
+	text-align: center;
+	font-size: 20px;
+}
+
+.table {
+	width: 100%;
+	max-width: 100%;
+}
+
+.table-scroll {
+	display: block;
+	max-height: 400px;
+	overflow-y: auto;
+	margin-top: 50px;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: black;
+	background-clip: 
+}
+
+
+.container1 {
+	margin-top: 4%;
+	float: left;
+	width: 5%;
+}
+
+.container1 i {
+	position: absolute;
+	right: 5px;
+	top: -7px;
+}
+
+.add-product {
+	border-top: none;
+	border-bottom: 1px solid #d9d9d9;
+	border-left: none;
+	border-right: none;
+	font-size: 22px;
+	padding: 10px;
+	padding-right: 20px;
+}
+
+.add-product::placeholder {
+	color: black;
+}
+
+button.logo1:hover {
+	cursor: pointer;
+}
+
+a:hover, a:active, a.visited {
+	text-decoration: none;	
+}
+
+.header {
+	min-height: 100px;
+	background-color:#f2f2f2;
+}
+
+.head {
+	border-radius: 50px 0 0 50px;
+	background-color:#ffffff;
+}
+
+.search input{
+	float: left;
+	padding: 6px 10px;
+}
+
+.search button{
+	float: left;
+	border-radius: 0 50px 50px 0;
+	padding: 6px 10px;
+	background-color:#ffffff;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+
+#notif {
+	color: #000000;
+}
+
+#notif:hover {
+	color: #000000;
+}
+
+#notif:active {
+	color: #000000;
+}
+
+#notif:visited {
+	color: #000000;
+}
+
+th {
+	color: #bfbfbf;
+	text-align: center;
+}
+
+td {
+	font-size: 18px;
+}
+
+th + th, td + td{
+	border-left: 1px solid #dee2e6;
+}
+
+.table th {
+	border-top: none;
+}
